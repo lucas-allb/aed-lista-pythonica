@@ -1,11 +1,7 @@
 def generate_numbers(n: int) -> list[int]:
-    """
-    Gera uma lista de números de 1 até n.
-
-    Args:
-        n (int): limite superior
-
-    Returns:
-        list[int]: lista [1, 2, ..., n]
-    """
-    pass
+   valor = 1
+   l = []
+   while valor <=n:
+      l.append(valor)
+      valor += 1
+   return l
